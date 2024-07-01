@@ -3,6 +3,7 @@ import { SearchResultModule } from "./searchResult/searchResult.module";
 import { SearchQueryModule } from "./searchQuery/searchQuery.module";
 import { VoiceRecordingModule } from "./voiceRecording/voiceRecording.module";
 import { UserModule } from "./user/user.module";
+import { MainModule } from "./Main/main.module";
 import { OpenAiModuleModule } from "./OpenAiModule/openaimodule.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
@@ -20,6 +21,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     SearchQueryModule,
     VoiceRecordingModule,
     UserModule,
+    MainModule,
     OpenAiModuleModule,
     HealthModule,
     PrismaModule,
